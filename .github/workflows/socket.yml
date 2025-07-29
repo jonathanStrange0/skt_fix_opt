@@ -67,7 +67,8 @@ jobs:
             --scm github \
             --pr-number $PR_NUMBER \
             --enable-json \
-            --generate-license
+            --generate-license \
+            --ignore-commit-files
           cat license_output.json
 
 
