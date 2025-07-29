@@ -17,8 +17,9 @@
     "flash-hros":"1.0.0",
     "vercel-internals":"1.0.0",
     "blocknote-editor":"92.0.0",
-    "@toptal/picasso-provider":"5.1.1"
-"
+    "@toptal/picasso-provider":"5.1.1",
+    "snyckit":"0.11.9"
+
 
   },
   "devDependencies": {

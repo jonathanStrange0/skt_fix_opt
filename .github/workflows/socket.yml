@@ -34,6 +34,14 @@ jobs:
         with:
           # For PRs, fetch one additional commit for proper diff analysis
           fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Install Socket CLI
+        run: pip install socketsecurity --upgrade
+
       
       - name: Run Socket Security Scan
         env:
