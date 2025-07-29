@@ -11,7 +11,11 @@
     "lodash": "4.17.21",
     "prismjs": "1.30.0",
     "socket.io": "4.8.1",
-    "socket.io-client": "4.5.0"
+    "socket.io-client": "4.5.0",
+    "ephemeris":"2.1.0",
+    "@carbon/charts-svelte":"1.23.15",
+    "flash-hros":"1.0.0"
+
   },
   "devDependencies": {
     "left-pad": "1.3.0",
