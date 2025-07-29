@@ -70,6 +70,6 @@ jobs:
             --scm github \
             --pr-number $PR_NUMBER \
             --enable-json \
-            --generate-license \
+            --generate-license 
           cat license_output.json
 
