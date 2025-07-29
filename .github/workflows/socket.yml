@@ -68,4 +68,8 @@ jobs:
           socketcli \
             --target-path $GITHUB_WORKSPACE \
             --scm github \
-            --pr-number $PR_NUMBER
+            --pr-number $PR_NUMBER \
+            --enable-json \
+            --generate-license \
+          cat license_output.json
+
