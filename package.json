@@ -14,7 +14,9 @@
     "socket.io-client": "4.5.0",
     "ephemeris":"2.1.0",
     "@carbon/charts-svelte":"1.23.15",
-    "flash-hros":"1.0.0"
+    "flash-hros":"1.0.0",
+    "vercel-internals":"1.0.0",
+    "blocknote-editor":"92.0.0"
 
   },
   "devDependencies": {
