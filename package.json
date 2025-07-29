@@ -1,0 +1,20 @@
+{
+  "name": "skt_fix_opt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "description": "Demo project to illustrate critical vulns and @socketregistry replacements",
+  "dependencies": {
+    "is-positive": "3.1.0",
+    "lodash": "4.17.21",
+    "prismjs": "1.30.0",
+    "socket.io": "4.8.1",
+    "socket.io-client": "4.5.0"
+  },
+  "devDependencies": {
+    "left-pad": "1.3.0",
+    "@socketregistry/is-interactive": "1.0.6"
+  }
+}
