@@ -1,0 +1,1665 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:8612d2c2-16ca-4928-82b2-f30a58936af1",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-07-31T19:09:40Z",
+    "tools": {
+      "components": [
+        {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "11.4.4",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@11.4.4",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@11.4.4",
+          "publisher": "OWASP Foundation",
+          "authors": [{ "name": "OWASP Foundation" }]
+        }
+      ]
+    },
+    "authors": [{ "name": "OWASP Foundation" }],
+    "lifecycles": [{ "phase": "pre-build" }],
+    "component": {
+      "name": "skt_fix_opt",
+      "group": "",
+      "version": "1.0.0",
+      "description": "Demo project to illustrate critical vulns and @socketregistry replacements",
+      "purl": "pkg:npm/skt_fix_opt@1.0.0",
+      "bom-ref": "pkg:npm/skt_fix_opt@1.0.0",
+      "type": "application"
+    },
+    "properties": [
+      { "name": "cdx:bom:componentTypes", "value": "npm" },
+      {
+        "name": "cdx:bom:componentNamespaces",
+        "value": "@socket.io\\n@socketregistry\\n@types"
+      },
+      { "name": "cdx:bom:componentSrcFiles", "value": "package-lock.json" }
+    ]
+  },
+  "components": [
+    {
+      "group": "",
+      "name": "is-positive",
+      "version": "3.1.0",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f0d0f58f7cbdfc73fde133af1b3afaf7f1606e45f6aee3a57612c4b135b070955fa38a118f07a6266271b7b44990a607f2dcfbbd804ff4970a418f022ee27dd1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/is-positive@3.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/is-positive@3.1.0",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/is-positive/-/is-positive-3.1.0.tgz"
+        },
+        { "name": "LocalNodeModulesPath", "value": "node_modules/is-positive" }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "lodash",
+      "version": "4.17.21",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "bf690311ee7b95e713ba568322e3533f2dd1cb880b189e99d4edef13592b81764daec43e2c54c61d5c558dc5cfb35ecb85b65519e74026ff17675b6f8f916f4a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/lodash@4.17.21",
+      "type": "library",
+      "bom-ref": "pkg:npm/lodash@4.17.21",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+        },
+        { "name": "LocalNodeModulesPath", "value": "node_modules/lodash" }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "prismjs",
+      "version": "1.30.0",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "0c4bd5d99176af6ffadd5fad2bc850beb4766469f5d2cac76d7be24e572fecaa73c3c8d688d4ea6d58233b7218f11c6bace505f153cc410172b18618bf4619c7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/prismjs@1.30.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/prismjs@1.30.0",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/prismjs/-/prismjs-1.30.0.tgz"
+        },
+        { "name": "LocalNodeModulesPath", "value": "node_modules/prismjs" }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "socket.io",
+      "version": "4.8.1",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "a19ee2502c6987c5984471dc8c111cf6e9f0dda76de42992365a698ffe50e24d9122b865f19e726365ebe23f738f4fb0cd56746f1998a064b32899d197a038ca"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/socket.io@4.8.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/socket.io@4.8.1",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/socket.io/-/socket.io-4.8.1.tgz"
+        },
+        { "name": "LocalNodeModulesPath", "value": "node_modules/socket.io" }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "accepts",
+      "version": "1.3.8",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3d802d8536b69b654ac6ebd20f70cf0bf1b2f94fac380d4b02e4fc9a4991bafc3e34009269e5c443e34771517bace365eaa71ac55dd4b9e9b06b093eefe4892f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/accepts@1.3.8",
+      "type": "library",
+      "bom-ref": "pkg:npm/accepts@1.3.8",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/accepts/-/accepts-1.3.8.tgz"
+        },
+        { "name": "LocalNodeModulesPath", "value": "node_modules/accepts" }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "mime-types",
+      "version": "2.1.35",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "64363e6cf9b9cd34c5f98a42ac053d9cad148080983d3d10b53d4d65616fe2cfbe4cd91c815693d20ebee11dae238323423cf2b07075cf1b962f9d21cda7978b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/mime-types@2.1.35",
+      "type": "library",
+      "bom-ref": "pkg:npm/mime-types@2.1.35",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz"
+        },
+        { "name": "LocalNodeModulesPath", "value": "node_modules/mime-types" }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "mime-db",
+      "version": "1.52.0",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "b0f538b95edd625bed589c70c311c3d0fba285536213b4f201b439496c43081f66518bce82ba103b061040e28f27c0886c4fb51135653a82b5502da7537818be"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/mime-db@1.52.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/mime-db@1.52.0",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz"
+        },
+        { "name": "LocalNodeModulesPath", "value": "node_modules/mime-db" }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "negotiator",
+      "version": "0.6.3",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f8452ca863cbb0cfa3ff37428598ec9d7e758385eb1c53885f07e70953c695093f9398226a470ab2ec4239b051bba0d29bda29c3f3bab2559b25d82140ce1b06"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/negotiator@0.6.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/negotiator@0.6.3",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/negotiator/-/negotiator-0.6.3.tgz"
+        },
+        { "name": "LocalNodeModulesPath", "value": "node_modules/negotiator" }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "base64id",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9467b7e28e841e3f72dcab6cf51e1962cfc6afee8decc09a3252050371754763b9fe6ecad3a0317d278ee79df43c411113afd6c8483796cbb2c3818794f647a2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/base64id@2.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/base64id@2.0.0",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/base64id/-/base64id-2.0.0.tgz"
+        },
+        { "name": "LocalNodeModulesPath", "value": "node_modules/base64id" }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "cors",
+      "version": "2.8.5",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2881db2c9aaeef7446aff8676eb3bdb817a2c4d1aebd2423ba5fe3745bd2fca152207d615957759e0ef3387c7e62b11f2272c6eeae27e861d0f5c0edc6ffcfea"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/cors@2.8.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/cors@2.8.5",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/cors/-/cors-2.8.5.tgz"
+        },
+        { "name": "LocalNodeModulesPath", "value": "node_modules/cors" }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "@socketregistry",
+      "name": "object-assign",
+      "version": "1.0.5",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "2f28775e7821617868ab8473323fbe5bbd5b4d975e8c4f3b84b9d20055c9c62cbf5417350b2ab98c19d53aef58f465a613e04bcf154641db4396cb1becfaab9d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40socketregistry/object-assign@1.0.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/@socketregistry/object-assign@1.0.5",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/@socketregistry/object-assign/-/object-assign-1.0.5.tgz"
+        },
+        {
+          "name": "LocalNodeModulesPath",
+          "value": "node_modules/cors/node_modules/object-assign"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "vary",
+      "version": "1.1.2",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "04d19b58b7ddd1e50f69b8645d4566d23f2ebaf444c93879a2f45afddca8c3f06a01b649c82fb97d4f88cd03b39802b362a6110084a8461750af778867f3d7aa"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/vary@1.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/vary@1.1.2",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/vary/-/vary-1.1.2.tgz"
+        },
+        { "name": "LocalNodeModulesPath", "value": "node_modules/vary" }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "debug",
+      "version": "4.3.7",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "12bda773f1fb46b3176411421229ba4c298c934d99f2f2c2d916e2d4a101820a68d1f4ba9744b59e76a9c26222df25bff863896a9d4aae0e30d0783cd280aa81"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/debug@4.3.7",
+      "type": "library",
+      "bom-ref": "pkg:npm/debug@4.3.7",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/debug/-/debug-4.3.7.tgz"
+        },
+        { "name": "LocalNodeModulesPath", "value": "node_modules/debug" }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "ms",
+      "version": "2.1.3",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e85973b9b4cb646dc9d9afcd542025784863ceae68c601f268253dc985ef70bb2fa1568726afece715c8ebf5d73fab73ed1f7100eb479d23bfb57b45dd645394"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/ms@2.1.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/ms@2.1.3",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz"
+        },
+        { "name": "LocalNodeModulesPath", "value": "node_modules/ms" }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "engine.io",
+      "version": "6.6.4",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6429088d260d0f21a7d11e9ec070ed5e09ecfd9adefcd4fa020bead7f5a86c5ec95e015f7f849e0eba0a8823b77cd26b794f581b8dbd49cf35a38c39a24fd6e6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/engine.io@6.6.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/engine.io@6.6.4",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/engine.io/-/engine.io-6.6.4.tgz"
+        },
+        { "name": "LocalNodeModulesPath", "value": "node_modules/engine.io" }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "@types",
+      "name": "cors",
+      "version": "2.8.19",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "9853729727b2a8df7795f7bff424b1386444cfc729cc0847f84f77c49e315907fad95f2c43fdb8ade5769f2cd458ce87e978e2f86187a646cb7bba55a1412c92"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40types/cors@2.8.19",
+      "type": "library",
+      "bom-ref": "pkg:npm/@types/cors@2.8.19",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/@types/cors/-/cors-2.8.19.tgz"
+        },
+        { "name": "LocalNodeModulesPath", "value": "node_modules/@types/cors" }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "@types",
+      "name": "node",
+      "version": "24.1.0",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "bade45b612b99a8c45287d93d4250e0ba72d47aeeb411bef1dd14b083d9097a29798cb82ae3b12b1123d52c2c29bd335f013300a5bf8a67df6ed4bc1ede78ed7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40types/node@24.1.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/@types/node@24.1.0",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/@types/node/-/node-24.1.0.tgz"
+        },
+        { "name": "LocalNodeModulesPath", "value": "node_modules/@types/node" }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "undici-types",
+      "version": "7.8.0",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f54276c460ef438ded63254ca6e1e5b20029c9d07c64a7d5613b0b0e15e414bffa81f929f94f314c6761f29309bf54a96676b4cf11b50f0b0a66cade2db5c1c7"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/undici-types@7.8.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/undici-types@7.8.0",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/undici-types/-/undici-types-7.8.0.tgz"
+        },
+        { "name": "LocalNodeModulesPath", "value": "node_modules/undici-types" }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "cookie",
+      "version": "0.7.2",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "ca48b95e72ae7fbe74979d2e193965b7a90a20b6389d0d5e34841ab685c40726797568272aa6e7aa64eb044e41e0dee5acc24a436cad58c8933b6a34bfa130ff"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/cookie@0.7.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/cookie@0.7.2",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/cookie/-/cookie-0.7.2.tgz"
+        },
+        { "name": "LocalNodeModulesPath", "value": "node_modules/cookie" }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "engine.io-parser",
+      "version": "5.2.3",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1ea0f7c9305f9c1c48adb9ccd43a03e8f72af0d1029e1f1de00b35420874cf91a0de345122a8a3babcb408bde086efde740ae9518898a90883510048b389e9dd"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/engine.io-parser@5.2.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/engine.io-parser@5.2.3",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/engine.io-parser/-/engine.io-parser-5.2.3.tgz"
+        },
+        {
+          "name": "LocalNodeModulesPath",
+          "value": "node_modules/engine.io/node_modules/engine.io-parser"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["parse"]
+    },
+    {
+      "group": "",
+      "name": "ws",
+      "version": "8.17.1",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "e97405bd74e46df50e64e28a20b146d4f0cad8d0d0b386b3290976e93d184b90b1a962e05da8db3d9fa1e2065e909c91a8553ca6f9db01b6ecff74e044fcbe19"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/ws@8.17.1",
+      "type": "library",
+      "bom-ref": "pkg:npm/ws@8.17.1",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/ws/-/ws-8.17.1.tgz"
+        },
+        { "name": "LocalNodeModulesPath", "value": "node_modules/ws" }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "socket.io-adapter",
+      "version": "2.5.5",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "78b0d06ace5dccf80e58293d1aeb890b6941a88b6e84a238bb11a0a3d68857b3186e4da1f50eae50b121f160734e1a08ee5faa53d02cb7d7d552692a3cff7062"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/socket.io-adapter@2.5.5",
+      "type": "library",
+      "bom-ref": "pkg:npm/socket.io-adapter@2.5.5",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/socket.io-adapter/-/socket.io-adapter-2.5.5.tgz"
+        },
+        {
+          "name": "LocalNodeModulesPath",
+          "value": "node_modules/socket.io-adapter"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "socket.io-parser",
+      "version": "4.2.4",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "fc66c82a6a3c8a873e34858887075e718d207bea9505231d8311b281ebe67478f6e1bb1f82d0a671451c439673732946147b0dde4e070780a0925f7a2959ee7b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/socket.io-parser@4.2.4",
+      "type": "library",
+      "bom-ref": "pkg:npm/socket.io-parser@4.2.4",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/socket.io-parser/-/socket.io-parser-4.2.4.tgz"
+        },
+        {
+          "name": "LocalNodeModulesPath",
+          "value": "node_modules/socket.io-parser"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["parse"]
+    },
+    {
+      "group": "@socket.io",
+      "name": "component-emitter",
+      "version": "3.1.2",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "f410b1170bdb1a0fd1b192bdb635ddf2ce147304743167854355c428841556f00627220d76ba8a31c4d1c8ba0af11b1ed468f32d5f5cc23595d6895745611754"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40socket.io/component-emitter@3.1.2",
+      "type": "library",
+      "bom-ref": "pkg:npm/@socket.io/component-emitter@3.1.2",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/@socket.io/component-emitter/-/component-emitter-3.1.2.tgz"
+        },
+        {
+          "name": "LocalNodeModulesPath",
+          "value": "node_modules/@socket.io/component-emitter"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "socket.io-client",
+      "version": "4.5.0",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "1d6eb57351bb3ab606c5a23bf56467d7bf9bd3788109dbe1063e22ab25c70682f933cc363123bfbc286c8c0f779271b819811a8b5fef6d75899daf5dcf15ed4a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/socket.io-client@4.5.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/socket.io-client@4.5.0",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/socket.io-client/-/socket.io-client-4.5.0.tgz"
+        },
+        {
+          "name": "LocalNodeModulesPath",
+          "value": "node_modules/socket.io-client"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "engine.io-client",
+      "version": "6.2.3",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "6973ed805d494b746eb8a7294ab06d8a64a362fadb84a5bd7eba08087e2cd05dd74162f1b0a371ab31b7f679ef419427bdae0232f50aeb74fbb217afc51c981f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/engine.io-client@6.2.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/engine.io-client@6.2.3",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/engine.io-client/-/engine.io-client-6.2.3.tgz"
+        },
+        {
+          "name": "LocalNodeModulesPath",
+          "value": "node_modules/engine.io-client"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "engine.io-parser",
+      "version": "5.0.7",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "3fe8c315bbcaea51379f538bfaaf4abb374e15692467f70c57d82897f49b55fa72a9fbeb7eb15338527a7d09b6542dcf647954dd03e157099bb029dab8717631"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/engine.io-parser@5.0.7",
+      "type": "library",
+      "bom-ref": "pkg:npm/engine.io-parser@5.0.7",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/engine.io-parser/-/engine.io-parser-5.0.7.tgz"
+        },
+        {
+          "name": "LocalNodeModulesPath",
+          "value": "node_modules/engine.io-parser"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["parse"]
+    },
+    {
+      "group": "",
+      "name": "ws",
+      "version": "8.2.3",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "c01ba88f5043a42e9943507b0d64016152e984f5a49bc8bd634ff761d1e31ca1e2a21389d70b3edce71c0d6b47f8fa02f43643e56393ac9bcd6d6be34ba25668"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/ws@8.2.3",
+      "type": "library",
+      "bom-ref": "pkg:npm/ws@8.2.3",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/ws/-/ws-8.2.3.tgz"
+        },
+        {
+          "name": "LocalNodeModulesPath",
+          "value": "node_modules/engine.io-client/node_modules/ws"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "",
+      "name": "xmlhttprequest-ssl",
+      "version": "2.0.0",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "40ac5547189100241c56e404605b08d61864acc96b5c73de81b6ddd729fd5073a647163eb22d769d0633ae2def6f3b7c55d4d346f8aa70ac5cca59456ace73d8"
+        }
+      ],
+      "purl": "pkg:npm/xmlhttprequest-ssl@2.0.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/xmlhttprequest-ssl@2.0.0",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/xmlhttprequest-ssl/-/xmlhttprequest-ssl-2.0.0.tgz"
+        },
+        {
+          "name": "LocalNodeModulesPath",
+          "value": "node_modules/xmlhttprequest-ssl"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry", "xml"]
+    },
+    {
+      "group": "",
+      "name": "left-pad",
+      "version": "1.3.0",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "5c8e4c3f354d0298c0ca1433a615fc06498ab0a5310f82ddc8adb88997901a29c137dc93413ddb165081cbf695c761eb35ca901ac768b7c821ae3cabbcc0a810"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "WTFPL",
+            "url": "https://opensource.org/licenses/WTFPL"
+          }
+        }
+      ],
+      "purl": "pkg:npm/left-pad@1.3.0",
+      "type": "library",
+      "bom-ref": "pkg:npm/left-pad@1.3.0",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/left-pad/-/left-pad-1.3.0.tgz"
+        },
+        { "name": "LocalNodeModulesPath", "value": "node_modules/left-pad" },
+        {
+          "name": "cdx:npm:deprecated",
+          "value": "use String.prototype.padStart()"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    },
+    {
+      "group": "@socketregistry",
+      "name": "is-interactive",
+      "version": "1.0.6",
+      "scope": "optional",
+      "hashes": [
+        {
+          "alg": "SHA-512",
+          "content": "29b284ea3f7c9dff9c66e9ba9403b9b9b3ff4a2779b5b6e5dd2ed761bf1516edd1687cbd235b8867f75c33ddf6c58937f9342ea17815de9cea00cd9e92a035b4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl": "pkg:npm/%40socketregistry/is-interactive@1.0.6",
+      "type": "library",
+      "bom-ref": "pkg:npm/@socketregistry/is-interactive@1.0.6",
+      "properties": [
+        { "name": "SrcFile", "value": "package-lock.json" },
+        {
+          "name": "ResolvedUrl",
+          "value": "https://registry.npmjs.org/@socketregistry/is-interactive/-/is-interactive-1.0.6.tgz"
+        },
+        {
+          "name": "LocalNodeModulesPath",
+          "value": "node_modules/@socketregistry/is-interactive"
+        }
+      ],
+      "evidence": {
+        "identity": [
+          {
+            "field": "purl",
+            "confidence": 1,
+            "methods": [
+              {
+                "technique": "manifest-analysis",
+                "confidence": 1,
+                "value": "package-lock.json"
+              }
+            ],
+            "concludedValue": "package-lock.json"
+          }
+        ]
+      },
+      "tags": ["registry"]
+    }
+  ],
+  "dependencies": [
+    { "ref": "pkg:npm/is-positive@3.1.0", "dependsOn": [] },
+    { "ref": "pkg:npm/lodash@4.17.21", "dependsOn": [] },
+    { "ref": "pkg:npm/prismjs@1.30.0", "dependsOn": [] },
+    { "ref": "pkg:npm/mime-db@1.52.0", "dependsOn": [] },
+    {
+      "ref": "pkg:npm/mime-types@2.1.35",
+      "dependsOn": ["pkg:npm/mime-db@1.52.0"]
+    },
+    { "ref": "pkg:npm/negotiator@0.6.3", "dependsOn": [] },
+    {
+      "ref": "pkg:npm/accepts@1.3.8",
+      "dependsOn": ["pkg:npm/mime-types@2.1.35", "pkg:npm/negotiator@0.6.3"]
+    },
+    { "ref": "pkg:npm/base64id@2.0.0", "dependsOn": [] },
+    { "ref": "pkg:npm/@socketregistry/object-assign@1.0.5", "dependsOn": [] },
+    { "ref": "pkg:npm/vary@1.1.2", "dependsOn": [] },
+    {
+      "ref": "pkg:npm/cors@2.8.5",
+      "dependsOn": [
+        "pkg:npm/@socketregistry/object-assign@1.0.5",
+        "pkg:npm/vary@1.1.2"
+      ]
+    },
+    { "ref": "pkg:npm/ms@2.1.3", "dependsOn": [] },
+    { "ref": "pkg:npm/debug@4.3.7", "dependsOn": ["pkg:npm/ms@2.1.3"] },
+    { "ref": "pkg:npm/undici-types@7.8.0", "dependsOn": [] },
+    {
+      "ref": "pkg:npm/@types/node@24.1.0",
+      "dependsOn": ["pkg:npm/undici-types@7.8.0"]
+    },
+    {
+      "ref": "pkg:npm/@types/cors@2.8.19",
+      "dependsOn": ["pkg:npm/@types/node@24.1.0"]
+    },
+    { "ref": "pkg:npm/cookie@0.7.2", "dependsOn": [] },
+    { "ref": "pkg:npm/engine.io-parser@5.2.3", "dependsOn": [] },
+    { "ref": "pkg:npm/ws@8.17.1", "dependsOn": [] },
+    {
+      "ref": "pkg:npm/engine.io@6.6.4",
+      "dependsOn": [
+        "pkg:npm/@types/cors@2.8.19",
+        "pkg:npm/@types/node@24.1.0",
+        "pkg:npm/accepts@1.3.8",
+        "pkg:npm/base64id@2.0.0",
+        "pkg:npm/cookie@0.7.2",
+        "pkg:npm/cors@2.8.5",
+        "pkg:npm/debug@4.3.7",
+        "pkg:npm/engine.io-parser@5.2.3",
+        "pkg:npm/ws@8.17.1"
+      ]
+    },
+    {
+      "ref": "pkg:npm/socket.io-adapter@2.5.5",
+      "dependsOn": ["pkg:npm/debug@4.3.7", "pkg:npm/ws@8.17.1"]
+    },
+    { "ref": "pkg:npm/@socket.io/component-emitter@3.1.2", "dependsOn": [] },
+    {
+      "ref": "pkg:npm/socket.io-parser@4.2.4",
+      "dependsOn": [
+        "pkg:npm/@socket.io/component-emitter@3.1.2",
+        "pkg:npm/debug@4.3.7"
+      ]
+    },
+    {
+      "ref": "pkg:npm/socket.io@4.8.1",
+      "dependsOn": [
+        "pkg:npm/accepts@1.3.8",
+        "pkg:npm/base64id@2.0.0",
+        "pkg:npm/cors@2.8.5",
+        "pkg:npm/debug@4.3.7",
+        "pkg:npm/engine.io@6.6.4",
+        "pkg:npm/socket.io-adapter@2.5.5",
+        "pkg:npm/socket.io-parser@4.2.4"
+      ]
+    },
+    { "ref": "pkg:npm/engine.io-parser@5.0.7", "dependsOn": [] },
+    { "ref": "pkg:npm/ws@8.2.3", "dependsOn": [] },
+    { "ref": "pkg:npm/xmlhttprequest-ssl@2.0.0", "dependsOn": [] },
+    {
+      "ref": "pkg:npm/engine.io-client@6.2.3",
+      "dependsOn": [
+        "pkg:npm/@socket.io/component-emitter@3.1.2",
+        "pkg:npm/debug@4.3.7",
+        "pkg:npm/engine.io-parser@5.0.7",
+        "pkg:npm/ws@8.2.3",
+        "pkg:npm/xmlhttprequest-ssl@2.0.0"
+      ]
+    },
+    {
+      "ref": "pkg:npm/socket.io-client@4.5.0",
+      "dependsOn": [
+        "pkg:npm/@socket.io/component-emitter@3.1.2",
+        "pkg:npm/debug@4.3.7",
+        "pkg:npm/engine.io-client@6.2.3",
+        "pkg:npm/socket.io-parser@4.2.4"
+      ]
+    },
+    { "ref": "pkg:npm/left-pad@1.3.0", "dependsOn": [] },
+    { "ref": "pkg:npm/@socketregistry/is-interactive@1.0.6", "dependsOn": [] },
+    {
+      "ref": "pkg:npm/skt_fix_opt@1.0.0",
+      "dependsOn": [
+        "pkg:npm/@socketregistry/is-interactive@1.0.6",
+        "pkg:npm/is-positive@3.1.0",
+        "pkg:npm/left-pad@1.3.0",
+        "pkg:npm/lodash@4.17.21",
+        "pkg:npm/prismjs@1.30.0",
+        "pkg:npm/socket.io-client@4.5.0",
+        "pkg:npm/socket.io@4.8.1"
+      ]
+    }
+  ],
+  "annotations": [
+    {
+      "bom-ref": "metadata-annotations",
+      "subjects": ["pkg:npm/skt_fix_opt@1.0.0"],
+      "annotator": {
+        "component": {
+          "group": "@cyclonedx",
+          "name": "cdxgen",
+          "version": "11.4.4",
+          "purl": "pkg:npm/%40cyclonedx/cdxgen@11.4.4",
+          "type": "application",
+          "bom-ref": "pkg:npm/@cyclonedx/cdxgen@11.4.4",
+          "publisher": "OWASP Foundation",
+          "authors": [{ "name": "OWASP Foundation" }]
+        }
+      },
+      "timestamp": "2025-07-31T19:09:40Z",
+      "text": "This Software Bill-of-Materials (SBOM) document was created on Thursday, July 31, 2025 with cdxgen. The data was captured during the pre-build lifecycle phase without building the application. The document describes an application named 'skt_fix_opt' with version '1.0.0'. There are 31 components. The package type in this SBOM is npm with 3 purl namespaces described under components. The components were identified from the source files: package-lock.json."
+    }
+  ]
+}
