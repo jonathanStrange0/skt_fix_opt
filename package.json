@@ -20,7 +20,9 @@
     "@toptal/picasso-provider":"5.1.1",
     "snyckit":"0.11.9",
     "ephemeris":"2.1.0",
-    "es-workflow-template":"0.4.6"
+    "es-workflow-template":"0.4.6",
+    "dhx-suite":"9.2.0",
+    "dhtmlx-gantt":"9.0.14"
 
 
   },
